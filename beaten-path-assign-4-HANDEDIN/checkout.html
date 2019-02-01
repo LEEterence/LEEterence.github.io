@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout</title>
+    <!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+	<![endif]-->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="page-header clearfix">
+            <div class="site-header">
+                <img src="img/beaten-logo.gif" alt="The Beaten Path">
+                <h1><a href="index.html">The <strong>Beaten</strong> Path</a></h1>
+            </div>
+            <nav>
+                <ul class="clearfix">
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="checkout.html">Checkout</a></li>
+                </ul>
+                <a href="#">
+                    <img src="img/search-icon.gif" alt="Search icon">
+                </a>
+            </nav>
+        </header>
+        <main class="checkout-main">
+            <section class="clearfix">
+                <div class="home">
+                    <p><span>Home</span> / <span>Shop</span> / Payment</p>
+                </div>
+                <header class="clearfix checkout-main-header">
+                    <h2>Payment Checkout</h2>
+                    <div class="selected">
+                        <p>Step 1 - Shipping Information</p>
+                        <img src="img/checkout/green-check.gif" alt="green checkmark">
+                    </div>
+                    <div>
+                        <p>Step 2 - Payment</p>
+                    </div>
+                </header>
+                <section class="customer">
+                    <header>
+                        <h3>Customer Information</h3>
+                        <p>Add your address details</p>
+                    </header>
+                    <form class="customer-form">
+                        <div class="row-1">
+                            <div>
+                                <label for="first_name">First Name<span>*</span></label>
+                                <input type="text" id="first_name" name="first_name">
+                            </div>
+                            <div>
+                                <label for="last_name">Last Name<span>*</span></label>
+                                <input type="text" id="last_name" name="last_name">
+                            </div>
+                        </div>
+                        <div class="row-2">
+                            <div>
+                                <label for="address">Street Address</label>
+                                <input type="text" id="address" name="Street_Address">
+                            </div>
+                            <div>
+                                <label for="apt">Apt / unit / suit</label>
+                                <input type="text" id="apt" name="apt_unit_suit">
+                            </div>
+                        </div>
+                        <div class="row-3">
+                            <div>
+                                <label for="City">City<span>*</span></label>
+                                <input type="text" id="City" name="city">
+                            </div>
+                            <div>
+                                <label for="province">Province</label>
+                                <input type="text" id="province" name="province">
+                            </div>
+                        </div>
+                        <div class="row-4">
+                            <div>
+                                <label for="Postal">Postal Code</label>
+                                <input type="text" id="Postal" name="postal code">
+                            </div>
+                            <div>
+                                <label for="phone">Phone Number<span>*</span></label>
+                                <input type="text" id="phone" name="phone-number">
+                            </div>
+                        </div>
+                        <div class="row-5">
+                            <input type="submit" value="CONTINUE CHECKOUT">
+                        </div>
+                    </form>
+                </section>
+                <section class="order">
+                    <div class="item">
+                        <h3>Order Summary</h3>
+                        <div class="clearfix">
+                            <img src="img/checkout/red-backpack-resized.jpg" alt="checkout red backpack">
+                            <p>Osprey kestrel 68L Backpack - Red</p>
+                            <p class="price">$247.99</p>
+                        </div>
+                    </div>
+                    <div class="totals clearfix">
+                        <div class="subtotal">
+                            <p>Subtotal</p>
+                            <p class="costs">$247.99</p>
+                        </div>
+                        <div class="shipping">
+                            <p>Shipping</p>
+                            <p class="costs">$10.00</p>
+                        </div>
+                        <div class="total-cost">
+                            <p class="totals-head">Total Cost</p>
+                            <p class="costs">$257.99</p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </main>
+        <footer class="page-footer">
+            <h2>Connect With Us</h2>
+            <p>Follow us on social media to keep up to date</p>
+            <div class="social-media-images">
+                <ul class="clearfix">
+                    <li>
+                        <a href="#"><img src="img/instagram.png" alt="instagram"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/twitter.png" alt="twitter"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/facebook.png" alt="facebook"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/youtube.png" alt="youtube"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="white-line"></div>
+            <nav>
+                <ul class="clearfix">
+                    <li><a href="#">Terms & Conditions</a><span>|</span></li>
+                    <li><a href="#">Travel Protection</a><span>|</span></li>
+                    <li><a href="#">Privacy Policy</a><span>|</span></li>
+                    <li><a href="#">Site Map</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
+</body>
+
+</html>
