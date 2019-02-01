@@ -1,0 +1,511 @@
+.container {
+	width: 960px;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-size: 100%;
+    background-color: #ffffff;
+}
+a,
+a:link,
+a:visited {
+	text-decoration: none;
+}
+a:hover,
+.home span,
+.page-footer nav li a:hover{
+	text-decoration: underline;
+}
+h1,
+h2,
+h3,
+h4,
+.page-header li,
+.checkout-main-header p,
+.customer header h3,
+.selected p{
+	font-family: 'Oswald', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+main,
+.page-header li,
+.checkout-main-header p,
+.customer header h3,
+.shop-main section div section p,
+.shop-main h4,
+.shop-main h3{
+	font-weight: bold;
+}
+h1,
+h2,
+h3,
+h4,
+.page-header li,
+.checkout-main-header{
+	text-transform: uppercase;
+}
+.page-footer nav li,
+.page-footer p,
+.article-text,
+.home{
+	font-size: 16px;	
+}
+.page-footer nav li,
+.page-footer p,
+.article-text,
+.home,
+section p,
+.customer-form label,
+.customer-form [type=submit] 
+{
+	font-family: 'Merriweather', serif;	
+}
+.main-header div,
+.shop-row-one section,
+.shop-row-two section,
+.shop-main-header div,
+.checkout-main-header div,
+.page-header,
+.checkout-main-header div,
+.customer,
+.order{
+	background-color: #ffffff;
+}
+.page-header,
+.site-header,
+.site-header h1,
+.site-header img,
+.page-header nav,
+.page-header ul,
+.page-header li,
+.main-header div,
+.main-content section,
+.article,
+.article-text,
+.order,
+.customer,
+.shop-row-one section,
+.shop-row-two section,
+.shop-main-header div,
+.checkout-main header div,
+.selected p,
+.selected img,
+.row-1 div,
+.row-2 div,
+.row-3 div,
+.row-4 div,
+.order .item img,
+.order .item p,
+.totals div p,
+.page-footer div li,
+.page-footer nav li{
+	float: left;
+}
+.site-header h1 a,
+.main-header,
+.shop-main-header h2,
+.checkout-main h2,
+.checkout-main-header p{
+	color: #3c3d40;
+}
+h3,
+h4,
+.home,
+.article-text,
+.order,
+.item div p,
+.item h3{
+	color: #33353e;
+}
+main,
+.main-content section h4,
+.customer-form input{
+	background-color: #f9f9f9;
+}
+.green-rectangle-bar,
+.customer-form [type=submit],
+.page-footer{
+	background-color: #5d6439; 
+}
+.page-footer,
+.page-footer nav li a,
+.customer-form [type=submit]{
+	color: #f9f9f9;
+}
+.page-header h1 strong,
+.shop-main section div section p,
+.customer-form span,
+.order .item .price{
+	color: #861919;
+}
+.shop-main .home,
+.page-main .home{
+	margin-bottom: 4px;
+}
+/* ------------------------PAGE-HEADER---------------------------------------------- */
+.page-header{
+	height: 79px;
+	border-bottom: #cdcdcd 1px solid;
+	margin-bottom: 22px;
+}
+.site-header{
+	width: 682px;
+	margin-top: 25px;
+}
+.site-header img{
+	margin-left: 10px;
+}
+.site-header h1{
+	font-size: 30px;
+	margin-left: 13px;
+}
+.page-header nav{
+	width: 265px;
+	margin: 25px 13px 0 0;
+}
+.page-header nav img{
+	margin-left: 44px;
+}
+.page-header li{
+	font-size: 18px;
+	margin-left: 46px;
+}
+.page-header li a{
+	color: #000000;
+}
+/*----------------------------MAIN PAGE-------------------------------------------------------*/
+main{
+	padding-bottom: 11px;
+}
+.home{
+    margin: 0 0 0 10px;
+    line-height: 1;
+}
+.main-header{
+	background: url(../img/boat-image.jpg) no-repeat;
+	height: 420px;
+}
+.main-header div{
+	width: 432px;
+	height: 199px;
+	margin: 181px 0 0 40px;
+}
+.main-header h2,
+.main-header p{
+	margin-left: 24px;
+}
+.main-header h2{
+	font-size: 48px;
+	margin-top: 18px;
+    line-height: 61px;
+    width: 310px;
+}
+.main-header p{
+	font-size: 14px;
+	margin-top: 17px;
+    word-spacing: 1.4px;
+}
+/*-----------------------------------*/
+.main-content header h3{
+	font-size: 36px;
+	margin: 59px 0 0 10px;
+}
+.green-rectangle-bar{
+	height: 12px;
+	width: 640px;
+	margin-left: 10px;
+	margin-top: 3px;
+}
+.main-content section{
+	height: 460px;
+	width: 460px;
+	margin: 0 10px;
+}
+.main-content section h4{
+	margin: 263px 0 0 0;
+	width: 143px;
+	height: 37px;
+	font-size: 24px;
+	padding-left: 10px;
+}
+.article{
+	width: 460px;
+}
+.hiking{
+	background: url(../img/hiking.jpg) no-repeat;
+}
+.camping{
+	background: url(../img/camping.jpg) no-repeat;
+}
+.rafting{
+	background: url(../img/rafting.jpg) no-repeat;
+}
+.fishing{
+	background: url(../img/fishing.jpg) no-repeat;
+}
+.article-text{
+	height: 91px;
+	width: 460px;
+	padding: 30px 0 39px 0;
+}
+/*----------------------------SHOP PAGE-------------------------------------------------------*/
+.shop-main section div section p,
+.shop-main h4,
+.shop-main h3{
+	margin-left: 10px;
+}
+.shop-main{
+	padding-bottom: 49px;
+}
+.shop-main-header{
+	background: url(../img/shop/shop-header-background.jpg) no-repeat;
+	height: 175px;
+}
+.shop-main-header div{
+	margin: 81px 0 0 20px;
+	width: 143px;
+	height: 71px;
+}
+.shop-main-header h2{
+	font-size: 48px;
+	text-align: center;
+}
+.shop-main h3{
+	font-size: 36px;
+	margin-top: 61px;
+}
+.shop-row-one{
+	margin-top: 10px;
+}
+.shop-row-one section,
+.shop-row-two section{
+	width: 220px;
+	height: 403px;
+	margin: 0 10px;
+}
+.shop-row-two section{
+	margin-top: 47px;
+}
+.shop-main h4{
+	font-size: 24px;
+}
+.shop-main section div section p{
+	font-size: 16px;
+    margin-top: 5px;
+}
+.tent img{
+	padding-top: 75px;
+}
+.tent h4{
+	width: 190px;
+}
+/*----------------------------CHECKOUT PAGE-------------------------------------------------------*/
+.checkout-main-header{
+	margin-left: 10px;
+}
+.checkout-main h2{
+	font-size: 48px;
+	margin-left: 3px;
+    margin-bottom: 26px;
+}
+.checkout-main header div{
+	width: 470px;
+	height: 40px;
+}
+.checkout-main header div.selected{
+	border: 3px solid #6d7444;
+	width: 464px;
+	height: 34px;
+}
+.checkout-main-header div{
+	text-align: center;
+}
+.checkout-main-header p{
+    line-height: 42px;
+}
+.selected p{
+	font-size: 16px;
+    padding-left: 136px;
+    line-height: 34px;
+}
+.selected img{
+	margin-top: 9px;
+	margin-left: 12px;
+}
+.customer,
+.order{
+	margin: 23px 10px 0 10px;
+}
+.customer-form span{
+	text-decoration: none;
+}
+.customer{
+	width: 620px;
+	height: 567px;
+	margin-bottom: 48px;
+}
+.customer header{
+	margin-left: 10px;
+}
+.customer header h3{
+	font-size: 36px;
+    margin: 22px 0 5px 0;
+}
+.customer header p{
+	margin-bottom: 5px;
+}
+
+/* FORM */
+.customer-form label{
+	color: #8f8f8f;
+	display: block;
+	font-size: 14px;
+	margin-left: 10px;
+}
+.customer-form input{
+	border: 1px solid #cdcdcd;
+	margin: 0 10px;
+    line-height: 36px;
+	border-radius: 4px;    
+}
+.customer-form span{
+	margin-left: 5px;
+}
+.row-1 div,
+.row-2 div,
+.row-3 div,
+.row-4 div,
+.row-5 div{
+	margin-top: 24px;
+}
+.row-1 input{
+	width: 288px;
+}
+#address,
+#City,
+#phone 
+{
+	width: 448px;
+}
+#apt, 
+#province,
+#Postal 
+{
+	width: 128px;
+}
+.row-5{
+	margin: 0 auto;
+	margin-left: 170px;
+}
+.customer-form [type=submit] {
+	width: 300px;
+	height: 38px;
+	margin-top: 34px;
+	border: none;
+	font-size: 16px;
+    border-radius: unset;
+}
+/* ORDER */
+.order{
+	font-size: 16px;
+	width: 300px;
+	height: 440px;
+}
+.order h3{
+	margin-top: 22px;
+}
+.order .item,
+.order .totals{
+	margin: 0 10px;
+}
+.order .item{
+	border-bottom: 2px solid #cdcdcd;
+}
+.order .item img,
+.order .item p{
+	margin-top: 37px;
+}
+.order .item img{
+	margin-left: 16px;
+	margin-right: 19px;
+}
+.order .item .price{
+	text-align: right;
+	margin-bottom: 13px;
+	font-size: 16px;
+	margin-left: 133px;
+	margin-top: 0;
+}
+.item div p{
+	width: 148px;
+	font-size: 16px;
+}
+.item h3{
+	font-size: 36px;
+}
+.totals div{
+	padding: 11px 0;
+	margin: 10px 0;
+}
+.totals-head{
+    margin-right: 10px;
+}
+.subtotal .costs{
+    margin-left: 147px;
+}
+.shipping .costs{
+    margin-left: 155px;
+    width: 51px;
+}
+.costs{
+	width: 63px;
+}
+.total-cost p{
+    padding: 13px 0 4px 5px;
+	width: 169px;
+	background-color: #cdcdcd;
+}
+.total-cost .costs{
+    width: 67px;
+	margin-right: 0px;
+	padding-left: 28px;
+}
+/* -------------------------------FOOTER-------------------------------------------------------- */
+.page-footer{
+	text-align: center;
+	height: 315px;
+}
+.page-footer h2{
+    padding: 46px 0 8px 0;
+	font-size: 36px;
+	font-weight: 400;
+}
+.page-footer p{
+	padding-bottom: 30px; 
+}
+.social-media-images{
+	width: 193px;
+	margin: 0 auto;
+	padding-bottom: 24px;
+}
+.page-footer div li{
+	margin:0 11px;
+}
+.white-line{
+	border-bottom: 2px solid #f9f9f9;
+	width: 818px;
+	margin: 0 auto;
+	margin-bottom: 28px;
+}
+.page-footer nav{
+	width: 536px;
+	margin: 0 auto;
+}
+.page-footer nav span{
+	margin: 0 7px;
+}
+.page-footer nav li a{
+	text-decoration: none;
+}
